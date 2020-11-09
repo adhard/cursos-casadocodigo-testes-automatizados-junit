@@ -10,6 +10,8 @@ public class Lance {
         this.valor = valor;
     }
 
+
+
     public Double getValor() {
         return valor;
     }
@@ -35,7 +37,15 @@ public class Lance {
         return true;
     }
 
-    
-    
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+
+
 
 }
